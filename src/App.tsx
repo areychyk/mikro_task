@@ -6,6 +6,7 @@ import {HookUseState} from "./hw1/HookUseState/HookUseState";
 import {Filter} from "./hw1/Filter/Filter";
 import {MessageApp} from "./hw1/Input/Task_1/MessageApp";
 import {AppFile} from "./hw1/Input/Task_2/AppFile";
+import App_AssArr from "./hw2/AssArr/App_AssArr";
 
 function App() {
     // const ButtonFoo1=(follower:string, age:number)=>{
@@ -27,7 +28,9 @@ function App() {
         {/*    <HookUseState/>*/}
         {/*    <Filter/>*/}
         {/*    <MessageApp/>*/}
-            <AppFile/>
+        {/*    <AppFile/>*/}
+            <App_AssArr/>
+
         </div>
     );
 }
